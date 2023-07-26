@@ -1,0 +1,11 @@
+asgiref==3.7.2
+channels==4.0.0
+channels-redis==4.1.0
+Django==4.2.3
+django-cors-headers==4.2.0
+djangorestframework==3.14.0
+drf-spectacular==0.26.4
+psycopg2==2.9.6
+redis==4.6.0
+websocket-client==1.6.1
+websockets==11.0.3
