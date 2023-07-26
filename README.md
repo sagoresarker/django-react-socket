@@ -1,5 +1,4 @@
 # shadhin-lab-task-django-react-socket
-Sure! Here's the documentation on how to set up and run the backend and frontend without using Docker:
 
 # Project Documentation
 
@@ -11,7 +10,6 @@ This documentation provides step-by-step instructions on how to set up and run t
 - [Backend Setup](#backend-setup)
 - [Frontend Setup](#frontend-setup)
 - [Running the Application](#running-the-application)
-- [Troubleshooting](#troubleshooting)
 - [Conclusion](#conclusion)
 
 ## Prerequisites
