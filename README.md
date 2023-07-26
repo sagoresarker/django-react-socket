@@ -121,4 +121,4 @@ npm start
         ![Backend Output](https://github.com/sagoresarker/shadhin-lab-task-django-react-socket/blob/main/Images/docker-error.png?raw=true)
 ## Conclusion
 
-Congratulations! You have successfully set up and run the backend and frontend of the project without using Docker. You now have a web application that tracks and displays the user's current location on a map. Feel free to explore the code and make any modifications to suit your specific needs. Happy coding!
+Happy coding!
