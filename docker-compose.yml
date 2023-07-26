@@ -1,0 +1,45 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:14-alpine
+    ports:
+      - '5434:5432'
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_PASSWORD=sagore
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=location_data_db
+    volumes:
+      - dev-db-data:/var/lib/postgresql/data
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+
+    volumes:
+    - ./frontend/build:/frontend/build
+
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_PASSWORD=sagore
+      - POSTGRES_USER=sagore
+      - POSTGRES_DB=location_data_db
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db
+
+
+volumes:
+  dev-db-data:
