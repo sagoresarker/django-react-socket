@@ -110,7 +110,6 @@ npm start
 ![Frontend Output](https://github.com/sagoresarker/shadhin-lab-task-django-react-socket/blob/main/Images/frontend-result.png?raw=true)
 
 
-The output on http://localhost:8000/ route will look like this:
 
 ## Unfinished Task
 - Use WebSocket for async communication.
