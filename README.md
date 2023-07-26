@@ -75,7 +75,7 @@ python manage.py runserver
 
 ![Backend Output](https://github.com/sagoresarker/shadhin-lab-task-django-react-socket/blob/main/Images/swaggar-doc.png?raw=true)
 
-The output on http://localhost:8000/ route will be look like this:
+The output on http://localhost:8000/ route will look like this:
 
 ## Frontend Setup
 
@@ -109,12 +109,11 @@ npm start
 
 ![Frontend Output](https://github.com/sagoresarker/shadhin-lab-task-django-react-socket/blob/main/Images/frontend-result.png?raw=true)
 
-![Backend Output](https://github.com/sagoresarker/shadhin-lab-task-django-react-socket/blob/main/Images/swaggar-doc.png?raw=true)
 
-The output on http://localhost:8000/ route will be look like this:
+The output on http://localhost:8000/ route will look like this:
 
 ## Unfinished Task
-- Use websocket for async communication.
+- Use WebSocket for async communication.
     - I tried it, but couldn't solve it.
     ![Backend Output](https://github.com/sagoresarker/shadhin-lab-task-django-react-socket/blob/main/Images/error-websocket.png?raw=true)
 
