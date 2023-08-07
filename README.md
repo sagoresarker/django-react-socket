@@ -1,4 +1,4 @@
-# shadhin-lab-task-django-react-socket
+# django-react-socket
 
 # Project Documentation
 
